@@ -1,4 +1,5 @@
-opencv-python-headless
-Pillow
+altair
+pandas
+scipy
 streamlit
-ultralytics
+plotly
