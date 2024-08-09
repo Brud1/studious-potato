@@ -3,11 +3,8 @@ from frontend.home import main
 
 
 if __name__ == "__main__":
-    import os
 
-    HOME = os.getcwd()
-
-    data_location = f"{HOME}\data\processed_INDEX_BTCUSD_1W.csv"
+    data_location = f"data/processed_INDEX_BTCUSD_1W.csv"
     print(data_location)
 
     processed_data = read_data(data_location)
